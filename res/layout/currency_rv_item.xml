@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/currencyData"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="3dp"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/idRLCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idRLCurrencyName"
+            android:layout_margin="2dp"
+            android:padding="3dp"
+            android:text="DigitalBits"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idRLCurrencyName"
+            android:id="@+id/idRLPrice"
+            android:layout_margin="2dp"
+            android:padding="3dp"
+            android:text="$0.62"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/idTBalanceDB"
+            android:layout_margin="2dp"
+            android:padding="3dp"
+            android:text="10000.00 XDB"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTBalanceDB"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/idTBalanceDollar"
+            android:layout_margin="2dp"
+            android:padding="3dp"
+            android:text="$16,129"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

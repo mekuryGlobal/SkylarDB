@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/idScoreLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/idScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="Your Score is "
+        android:layout_margin="10dp"
+        android:padding="4dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+
+    <Button
+        android:id="@+id/idRestart"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Restart quiz"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/colorPrimary"
+        />
+
+    <Button
+        android:id="@+id/idExit"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textAllCaps="false"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

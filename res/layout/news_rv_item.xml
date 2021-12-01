@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="3dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivContentView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_margin="8dp"
+            android:padding="4dp"
+            android:background="@drawable/ripple_effect"
+            />
+        <TextView
+            android:id="@+id/tvContentView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivContentView"
+            android:textColor="@color/colorPrimary"
+            android:text="On Demand Skillset"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="3dp"
+            android:maxLines="2"
+            android:layout_margin="8dp"
+            android:background="@drawable/ripple_effect"/>
+        <TextView
+            android:id="@+id/tvContentSubheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvContentView"
+            android:text="Sub heading"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/ripple_effect"
+            />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
